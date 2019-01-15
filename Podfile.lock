@@ -81,7 +81,7 @@ DEPENDENCIES:
   - TrustCore (from `https://github.com/TrustWallet/trust-core`, branch `master`)
   - TrustKeystore (from `https://github.com/TrustWallet/trust-keystore`, branch `master`)
   - TrustWalletSDK (from `https://github.com/TrustWallet/TrustSDK-iOS`, branch `master`)
-  - TrustWeb3Provider (from `https://github.com/TrustWallet/trust-web3-provider`, commit `f4e0ebb1b8fa4812637babe85ef975d116543dfd`)
+  - TrustWeb3Provider (from `https://github.com/maggie-5miles/trust-web3-provider`, commit `4f586959e3fa88f2f98fa5a6e508b32b0329f23f`)
   - URLNavigator
 
 SPEC REPOS:
@@ -126,8 +126,8 @@ EXTERNAL SOURCES:
     :branch: master
     :git: https://github.com/TrustWallet/TrustSDK-iOS
   TrustWeb3Provider:
-    :commit: f4e0ebb1b8fa4812637babe85ef975d116543dfd
-    :git: https://github.com/TrustWallet/trust-web3-provider
+    :commit: 4f586959e3fa88f2f98fa5a6e508b32b0329f23f
+    :git: https://github.com/maggie-5miles/trust-web3-provider
 
 CHECKOUT OPTIONS:
   JSONRPCKit:
@@ -146,8 +146,8 @@ CHECKOUT OPTIONS:
     :commit: 99eb1456c6ebf1ce6a2dca15731ff99d69f93eb0
     :git: https://github.com/TrustWallet/TrustSDK-iOS
   TrustWeb3Provider:
-    :commit: f4e0ebb1b8fa4812637babe85ef975d116543dfd
-    :git: https://github.com/TrustWallet/trust-web3-provider
+    :commit: 4f586959e3fa88f2f98fa5a6e508b32b0329f23f
+    :git: https://github.com/maggie-5miles/trust-web3-provider
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
@@ -180,6 +180,6 @@ SPEC CHECKSUMS:
   TrustWeb3Provider: 50fa391bdf170feb43dd4419992931510a5751d8
   URLNavigator: 2357a32f3b3787b748bf87deb927761f8b0f7f53
 
-PODFILE CHECKSUM: 30a4ddccde066176b63c4f1326409df048b754a1
+PODFILE CHECKSUM: 116906523db7d6488b107420b3d54e6287151e48
 
 COCOAPODS: 1.5.3

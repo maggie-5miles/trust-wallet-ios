@@ -68,13 +68,13 @@ extension WKWebViewConfiguration {
             console.debug('Trust Wallet - overrode web3.setProvider')
         }
 
-        web3.eth.defaultAccount = addressHex
+        web3.cmt.defaultAccount = addressHex
 
         web3.version.getNetwork = function(cb) {
             cb(null, chainID)
         }
 
-        web3.eth.getCoinbase = function(cb) {
+        web3.cmt.getCoinbase = function(cb) {
             return cb(null, addressHex)
         }
 
